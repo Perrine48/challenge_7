@@ -1,36 +1,80 @@
 .header {
-    background-color: #2C89D3;
-}
+  background-color: #2C89D3;
+  text-align: center; }
+
+ul {
+  width: 100%;
+  justify-content: center; }
+
+.introduction {
+  background-color: blue; }
+
 .footer {
-    background-color: red;
-}
+  background-color: red; }
 
 .profile {
-    border-radius: 100%;
-}
+  border-radius: 100%; }
 
 .center {
-    text-align: center;
-}
+  text-align: center; }
 
 img {
-    width: 90%;
-    padding: 1rem;
-}
+  width: 90%;
+  padding: 1rem; }
 
 section .profile {
-    float: left;
-    width: 30%;
-}
-.mainProfile{
-    border-radius: 100%;
-    width: 30%;
-    margin-top: 33%;
-}
-.catProfil{
-    background-image: url("https://picsum.photos/300/150/?random");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-}
+  float: left;
+  width: 30%; }
+
+section {
+  padding: 3rem; }
+
+.catProfil {
+  background-image: url("https://picsum.photos/300/150/?random\ahttps://picsum.photos/300/150/?random\a");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%; }
+
+.mainProfile {
+  border-radius: 100%;
+  width: 30%;
+  margin-top: 33%; }
+
+.logo {
+  width: 30%; }
+
+.minProfile {
+  width: 50%;
+  border-radius: 100%;
+  display: none; }
+
+.header i {
+  color: white; }
+
+.searchNotif {
+  padding-top: 1%; }
+
+.notif {
+  padding-top: 2%; }
+
+input {
+  border-radius: 5%; }
+
+body {
+  background-color: #F5F8FA; }
+
+.main {
+  max-width: 1600px;
+  margin: auto; }
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    float: right; }
+
+  .minProfile {
+    display: block; }
+
+  .notif {
+    float: right; } }
+
 /*# sourceMappingURL=style.css.map */
